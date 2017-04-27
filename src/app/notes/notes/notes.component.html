@@ -1,0 +1,4 @@
+<div>
+    <app-note-form (formSubmit)="addNote($event)"></app-note-form>
+    <app-note-list (OnDeleteNote)="deleteNote($event)" [notes]="notes"></app-note-list>
+</div>
